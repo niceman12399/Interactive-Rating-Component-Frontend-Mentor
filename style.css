@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+:root {
+  --color-1: hsl(213, 19%, 18%);
+  --color-2: hsl(216, 12%, 8%);
+  --color-3: hsl(216, 12%, 54%);
+  --color-4: hsl(0, 0%, 100%);
+  --color-5: hsl(217, 12%, 63%);
+  --color-6: hsl(25, 97%, 53%);
+}
+
+body {
+  background-color: var(--color-2);
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body button {
+  cursor: pointer;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.093);
+}
+body .outer-container-1, body .outer-container-2 {
+  background: linear-gradient(var(--color-1), var(--color-2));
+}
+body .outer-container-1 {
+  height: 420px;
+  width: 430px;
+  border-radius: 30px;
+  padding: 30px;
+}
+body .outer-container-1 .inner-container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: var(--color-1);
+  margin-bottom: 30px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.093);
+}
+body .outer-container-1 .inner-container-2 h2 {
+  font-weight: 600;
+  color: var(--color-4);
+  margin-bottom: 10px;
+}
+body .outer-container-1 .inner-container-3 p {
+  font-size: 15px;
+  color: var(--color-5);
+  margin-bottom: 25px;
+}
+body .outer-container-1 .inner-container-4 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+body .outer-container-1 .inner-container-4 button {
+  border-radius: 50%;
+  border: none;
+  height: 56px;
+  width: 56px;
+  background-color: var(--color-1);
+  color: var(--color-5);
+  font-size: 18px;
+}
+body .outer-container-1 .inner-container-4 button:hover {
+  background-color: var(--color-6);
+  color: var(--color-4);
+  transition: 0.2s;
+}
+body .outer-container-1 .inner-container-4 button:focus {
+  background-color: var(--color-5);
+  color: var(--color-4);
+  transition: 0.2s;
+}
+body .outer-container-1 .inner-container-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .outer-container-1 .inner-container-5 button {
+  border-radius: 30px;
+  border: none;
+  height: 55px;
+  width: 400px;
+  font-size: large;
+  color: var(--color-4);
+  background-color: var(--color-6);
+}
+body .outer-container-1 .inner-container-5 button:hover {
+  background-color: var(--color-4);
+  color: var(--color-6);
+  transition: 0.2s;
+}
+body .outer-container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 420px;
+  width: 430px;
+  border-radius: 30px;
+  padding: 30px;
+}
+body .outer-container-2 .inner-container-final-1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+body .outer-container-2 .inner-container-final-2 {
+  height: 35px;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: var(--color-1);
+  color: var(--color-6);
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+body .outer-container-2 .inner-container-final-3 {
+  color: var(--color-4);
+  margin-bottom: 15px;
+}
+body .outer-container-2 .inner-container-final-4 {
+  text-align: center;
+  font-size: 14.59px;
+}
+body .outer-container-2 .inner-container-final-4 p {
+  color: var(--color-5);
+}/*# sourceMappingURL=style.css.map */
